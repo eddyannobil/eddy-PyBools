@@ -99,7 +99,7 @@ jane_cards = [Jack + Hearts, King + Diamonds, 8 + Clubs, 9 + Hearts, 7 + Spades]
 print(james_cards)
 print(jane_cards)
 # Follow the same algorithm to determine the winner of this game
-round_1 = jane_cards[4] >= james_cards[0] 
+round_1 = jane_cards[4] >= james_cards[0]
 print(round_1)
 print(player2 +' '+ 'wins round_1')
 
@@ -115,7 +115,7 @@ round_4 = james_cards[1] >= jane_cards[3]
 print(round_4)
 print(player1 +' '+ 'wins round_4')
 
-round_5 = james_cards[3] >= jane_cards[2] 
+round_5 = james_cards[3] >= jane_cards[2]
 print(round_5)
 print(player1 +' '+ 'wins round_5')
 
@@ -149,7 +149,7 @@ round_4 = james_cards[1] >= jane_cards[3]
 print(round_4)
 print(player2 +' '+ 'wins round_4')
 
-round_5 = jane_cards[2] >= james_cards[3] 
+round_5 = jane_cards[2] >= james_cards[3]
 print(round_5)
 print(player2 +' '+ 'wins round_5')
 
