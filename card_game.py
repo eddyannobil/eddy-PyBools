@@ -68,23 +68,23 @@ jane_cards = [2 + Spades, Queen + Spades, 10 + Diamonds, 7 + Clubs, Jack + Heart
 # Based on their strategies, play all 5 rounds of the game, and determine the winner at the end of the game.
 # Set the variable `winner` to the name of the winner (through the appropriate player variable above) at the end of the game,
 # Increment the `game` variable to signify the start of the next game.
-round_1 = james_cards[0] > jane_cards[4] or james_cards[0] == jane_cards[4]
+round_1 = james_cards[0] >= jane_cards[4]
 print(round_1)
 print(player2 +' '+ 'wins round_1')
 
-round_2 = jane_cards[0] > james_cards[2] or jane_cards[0] == james_cards[2]
+round_2 = jane_cards[0] >= james_cards[2]
 print(round_2)
 print(player2 +' '+ 'wins round_2')
 
-round_3 = jane_cards[1] > james_cards[4] or jane_cards[1] == james_cards[4]
+round_3 = jane_cards[1] >= james_cards[4]
 print(round_3)
 print(player2 +' '+ 'wins round_3')
 
-round_4 = jane_cards[3] > james_cards[1] or jane_cards[3] == james_cards[1]
+round_4 = jane_cards[3] >= james_cards[1]
 print(round_4)
 print(player2 +' '+ 'wins round_4')
 
-round_5 = jane_cards[2] > james_cards[3] or jane_cards[2] == james_cards[3]
+round_5 = jane_cards[2] >= james_cards[3]
 print(round_5)
 print(player1 +' '+ 'wins round_5')
 
@@ -99,23 +99,23 @@ jane_cards = [Jack + Hearts, King + Diamonds, 8 + Clubs, 9 + Hearts, 7 + Spades]
 print(james_cards)
 print(jane_cards)
 # Follow the same algorithm to determine the winner of this game
-round_1 = jane_cards[4] > james_cards[0] or jane_cards[4] == james_cards[0]
+round_1 = jane_cards[4] >= james_cards[0] 
 print(round_1)
 print(player2 +' '+ 'wins round_1')
 
-round_2 = jane_cards[0] > james_cards[2] or jane_cards[0] == james_cards[2]
+round_2 = jane_cards[0] >= james_cards[2]
 print(round_2)
 print(player2 +' '+ 'wins round_2')
 
-round_3 = jane_cards[1] > james_cards[4] or jane_cards[1] == james_cards[4]
+round_3 = jane_cards[1] >= james_cards[4]
 print(round_3)
 print(player1 +' '+ 'wins round_3')
 
-round_4 = james_cards[1] > jane_cards[3] or james_cards[1] == jane_cards[3]
+round_4 = james_cards[1] >= jane_cards[3]
 print(round_4)
 print(player1 +' '+ 'wins round_4')
 
-round_5 = james_cards[3] > jane_cards[2] or james_cards[3] == jane_cards[2]
+round_5 = james_cards[3] >= jane_cards[2] 
 print(round_5)
 print(player1 +' '+ 'wins round_5')
 
@@ -133,23 +133,23 @@ jane_cards = [Queen + Hearts, 9 + Diamonds, 4 + Hearts, 2 + Diamonds, Queen + He
 print(james_cards)
 print(jane_cards)
 
-round_1 = james_cards[0] > jane_cards[4] or james_cards[0] == jane_cards[4] 
+round_1 = james_cards[0] >= jane_cards[4] 
 print(round_1)
 print(player2 +' '+ 'wins round_1')
 
-round_2 = jane_cards[0] > james_cards[2] or jane_cards[0] == james_cards[2]
+round_2 = jane_cards[0] >= james_cards[2]
 print(round_2)
 print(player1 +' '+ 'wins round_2')
 
-round_3 = james_cards[4] > jane_cards[1] or james_cards[4] == jane_cards[1]
+round_3 = james_cards[4] >= jane_cards[1]
 print(round_3)
 print(player1 +' '+ 'wins round_3')
 
-round_4 = james_cards[1] > jane_cards[3] or james_cards[1] == jane_cards[3]
+round_4 = james_cards[1] >= jane_cards[3]
 print(round_4)
 print(player2 +' '+ 'wins round_4')
 
-round_5 = jane_cards[2] > james_cards[3] or jane_cards[2] == james_cards[3]
+round_5 = jane_cards[2] >= james_cards[3] 
 print(round_5)
 print(player2 +' '+ 'wins round_5')
 
